@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Reto Oracle-ONE</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+    <p>Programa reto1 Oracle-ONE</p> 
+    <img src="imagenes/Logo.png" alt="logo de alura" />
+  </header>
+    <main class="prinsipal">
+      <section class="tarjeta1">
+        <h4>Mensaje</h4>
+        <textarea
+          name="mensaje"
+          id="mensaje"
+          cols="70"
+          rows="30"
+          placeholder="Ingrese su texto aqui"
+        ></textarea>
+        <br />
+        <p>&#9888 No ingresar texto con acentos </p>        
+        <button id="Encriptar">Encriptar</button>
+        <button id="Desencriptar">Desencriptar</button>
+        <button id="limpiar">Limpiar</button>
+        
+      </section>
+      <section class="tarjeta2">
+        <div>
+          <img id="imagen" src="imagenes/Muñeco.png" alt="" />
+          <h2 id="ningun">Ningun mensaje fue encontrado</h2>
+          <br><br>
+          <p id="texto2">Ingrese el texto a Encriptar o Desencriptar</p>
+        </div>
+        </section> 
+        <section id="mostrar">
+          <p>Mensaje encriptado</p>
+          <textarea 
+            name="resultado"
+            id="resultado"
+            cols="30"
+            rows="25"
+          ></textarea>
+          <button id="copiar">Copiar</button>
+        </section>           
+    </main>
+      
+    <footer>
+      <p class="copyright">&copy Copyright Reto Alura - 2022</p>
+    </footer>
+  </body>
+  <script src="codigo.js"></script>
+</html>

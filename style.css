@@ -1,0 +1,189 @@
+header p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(127, 127, 218);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(187, 233, 218);
+}
+.prinsipal {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 960;
+  height: 600px;
+  padding: 10px;
+  background-color: rgb(193, 233, 220);
+}
+.prinsipal textarea {
+  border-color: azure ;
+  background-color: rgb(220, 233, 228);
+}
+.prinsipal p {
+  color: rgb(226, 159, 24);
+  font-size: 17px;
+}
+
+.tarjeta1 {
+  margin-left: 5%;
+  width: 67%;
+  height: auto;
+  border-radius: 8px;
+}
+h4 {
+  font-size: 25px;
+  color: rgb(57, 80, 112);
+  margin-left: 10%;
+}
+#mensaje {
+  font-size: 15px;
+  width: 70;
+  height: 60%;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#Encriptar,
+#Desencriptar,
+#limpiar,
+#copiar {
+  margin-top: 3%;
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  font-size: 17px;
+  padding: 8px;
+  border-color: rgb(47, 39, 160);
+  border-radius: 19px;
+  color: rgb(236, 239, 240);
+  background-color: rgb(47, 39, 160);
+}
+.tarjeta2 {
+  width: 25%;
+  height: auto;
+  border-radius: 15px;
+  background-color: azure;
+  margin-right: 5%;
+}
+
+.imagen {
+  padding-top: 10%;
+  width: 90%;
+  height: 60%;
+}
+
+#ningun {
+  margin-top: 10%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: #343a40;
+
+  width: 100%;
+  height: 20%;
+}
+#texto2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+  width: 100%;
+  height: 20%;
+}
+.boton2 {
+  margin-left: 22%;
+}
+#mostrar {
+  position: absolute;
+  bottom: 25%;
+  left: 70%;
+}
+#mostrar p {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+#mostrar textarea {
+  font-size: 15px;
+  color: rgb(47, 47, 87);
+}
+.resultado {
+  width: 200px;
+  height: 200px;
+}
+footer {
+  padding-top: 15%;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(126, 144, 224);
+  width: 100%;
+  height: 50px;
+}
+@media screen and (max-width: 540px) {
+  .prinsipal{
+    display: block;
+    height: auto;
+  }
+  .prinsipal textarea {
+    margin-top: 30px;
+  }
+
+  #Encriptar,
+  #Desencriptar,
+  #limpiar {
+    display: inline-block;
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    margin-top:4%;
+    margin-left:0px;
+    margin-bottom: 3%;
+  }
+  .tarjeta1 {
+    align-items: center;
+  }
+
+  .tarjeta2 {
+    margin-top: 5%;
+    width: 80%;
+   align-items: center;
+  }
+  footer p {
+    text-align: center;
+    bottom: 4%;
+    margin: 2%;
+  }
+  #mostrar{
+    position: absolute;
+    top: 94%;
+    left: 5%;
+    height: 30%;
+    align-items: center;
+  }
+  #mostrar textarea{
+    height: 120%;
+  }
+  #mostar p{
+    margin-top: 20px;
+  }
+    
+
+
+ 
+  
+
+
+  
